@@ -13,12 +13,7 @@
 <header>
   <div id="logo"><a href="<?php bloginfo('url'); ?>"></a></div>
   <nav class="topnav" id="topnav">
-  <a href="http://"><span>Index</span><span class="en">Portal</span></a>
-  <a href="http://"><span>About</span><span class="en">About</span></a>
-  <a href="http://"><span>News</span><span class="en">News</span></a>
-  <a href="http://"><span>Words</span><span class="en">Doing</span></a>
-  <a href="http://"><span>Sharing</span><span class="en">Share</span></a>
-  <a href="http://"><span>Understanding</span><span class="en">Learn</span></a>
-  <a href="http://"><span>Message</span><span class="en">Gustbook</span></a>
+      <?php wp_list_cat(); ?>
+  <!-- <a href="http://"><span>Index</span><span class="en">Portal</span></a> -->
     </nav>
 </header>
